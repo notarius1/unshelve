@@ -1,0 +1,20 @@
+# OS_* - OpenStack vars
+OS_AUTH_URL="https://cloud.api/identity/v3"
+OS_IDENTITY_API_VERSION="3"
+OS_VOLUME_API_VERSION="3"
+OS_PROJECT_DOMAIN_NAME='123456'
+OS_PROJECT_ID='0123456789abcdef'
+OS_TENANT_ID='0123456789abcdef'
+OS_REGION_NAME='arctic-1'
+OS_USER_DOMAIN_NAME='123456'
+OS_USERNAME='User'
+OS_PASSWORD='Str0ngPa$$word'
+
+# Name or UUID for Cloud Server
+SERVER_NAME='Cloud01'
+# Cloud server IP address
+PING_IP='1.1.1.1'
+# Interval for ICMP requests (min)
+PING_INTERVAL_MINUTES='5'
+# Timeout for ICMP request (sec)
+PING_TIMEOUT_SECONDS='1'
